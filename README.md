@@ -43,6 +43,7 @@ redis.conf vs temporary change using ``CONFIG SET SAVE "60 1"``.
 1. ``hmset, hgetall, hexists, hincrby``
 1. Lists: ``rpush, lrange, lpop, ltrim``
 1. Sets: ``sadd, smembers, sismember, spop, scard``
+1. Sorted Sets: ``zadd, zrange, zrevrange, zrangebyscore, zrank``
 
 ## Resources
 
