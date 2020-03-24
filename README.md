@@ -40,7 +40,11 @@ redis.conf vs temporary change using ``CONFIG SET SAVE "60 1"``.
 1. ``exists key``
 1. ``del key``
 1. ``expire key secs``
+1. ``hmset, hgetall, hexists, hincrby``
+1. Lists: ``rpush, lrange, lpop, ltrim``
+1. Sets: ``sadd, smembers, sismember, spop, scard``
 
 ## Resources
 
 1. [ioredis clients](https://redis.io/clients#nodejs)
+1. [ioredis commands](https://redis.io/commands)

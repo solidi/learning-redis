@@ -1,8 +1,11 @@
 import Redis from 'ioredis';
+import Strings from './strings'
+import Hashes from './hashes'
+import Lists from './lists'
+import Sets from './sets';
 
 const redis = new Redis({ password: '123456'});
-
-redis.set('name', 'Emmanuel');
-redis.get('name', (err, result) => {
-    console.log(result);
-});
+Strings(redis);
+Hashes(redis);
+Lists(redis);
+Sets(redis);
