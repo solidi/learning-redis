@@ -44,6 +44,8 @@ redis.conf vs temporary change using ``CONFIG SET SAVE "60 1"``.
 1. Lists: ``rpush, lrange, lpop, ltrim``
 1. Sets: ``sadd, smembers, sismember, spop, scard``
 1. Sorted Sets: ``zadd, zrange, zrevrange, zrangebyscore, zrank``
+1. Sorted Lexicographically
+1. Pub/Sub: ``subscribe <channel> / publish <channel>``
 
 ## Resources
 
